@@ -3,15 +3,28 @@
 }
 
 .card {
-	border: 2px solid lightgrey;
+	border: 1px solid lightblue;
 	float: left;
 	width: 30%;
 	margin-left: 2.5%;
 }
 
+ul li {
+	font-weight: bold;
+	list-style: none;
+}
+
 img {
 	width: 90%;
 	margin-left: 5%;
+}
+
+.mainHeader {
+	border: 1px dotted lightgrey;
+}
+
+.mainHeader h1 {
+	text-align: center;
 }
 
 .mainHeader h1,
@@ -26,13 +39,13 @@ img {
 }
 
 .genInfo p {
-	width: 90%;
-	margin-left: 5%;
-	text-align: center;
+	width: 95%;
+	margin: 0 2.5%;
+	text-align: justify;
 }
 
 
 .availability {
 	background-color: darkgrey;
-	color: greenyellow;
+	color: yellow;
 }
