@@ -1,3 +1,6 @@
+/*************************************
+GENERAL STYLES
+*************************************/
 * {
 	box-sizing: border-box;
 }
@@ -14,6 +17,9 @@
 	margin-bottom: 2.5%;
 }
 
+/*************************************
+GEN-INFO DIV
+*************************************/
 .mainHeader {
 	border: 1px dotted lightgrey;
 }
@@ -45,6 +51,9 @@ img {
 	width: 100%;
 }
 
+/*************************************
+SPECIFICATIONS DIV
+*************************************/
 .specHeader h3{
 	margin: 1% 5%;
 	max-width: 90%;
@@ -78,7 +87,9 @@ img {
 	max-width: 90%;
 }
 
-
+/*************************************
+PRICING DIV
+*************************************/
 .pricing h3 {
 	margin: 1% 5%;
 	max-width: 90%;
@@ -109,23 +120,27 @@ img {
 	margin-left: 10%;
 }
 
+
+/*************************************
+MEDIA QUERIES
+*************************************/
 @media(min-width: 760px) {
 	.card {
 		width: 45%;
 		margin:3.3333% 0 0 2.5%;
-	}	
+	}
 }
 
 @media(min-width: 1024px) {
 	.card {
 		width: 30%;
 		margin:2.5% 0 0 2.5%;
-	}	
+	}
 }
 
 @media(min-width: 1440px) {
 	.card {
 		width: 22%;
 		margin:2% 0 0 2.5%;
-	}	
+	}
 }
