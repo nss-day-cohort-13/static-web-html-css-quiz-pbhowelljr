@@ -6,8 +6,8 @@
 	font-family: 'Source Sans Pro', sans-serif;
 	border: 1px solid lightblue;
 	float: left;
-	width: 30%;
-	margin:2.5% 0 0 2.5%;
+	width: 90vw;
+	margin:5% 2.5%;
 }
 
 .card:last-child {
@@ -54,7 +54,6 @@ img {
 	margin: 0 0 5%;
 	padding: 0;
 }
-
 
 .specList li{
 	list-style: none;
@@ -110,7 +109,23 @@ img {
 	margin-left: 10%;
 }
 
+@media(min-width: 760px) {
+	.card {
+		width: 45%;
+		margin:3.3333% 0 0 2.5%;
+	}	
+}
 
+@media(min-width: 1024px) {
+	.card {
+		width: 30%;
+		margin:2.5% 0 0 2.5%;
+	}	
+}
 
-
-
+@media(min-width: 1440px) {
+	.card {
+		width: 22%;
+		margin:2% 0 0 2.5%;
+	}	
+}
