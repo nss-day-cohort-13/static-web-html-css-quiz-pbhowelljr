@@ -20,40 +20,13 @@
 
 .mainHeader h1 {
 	text-align: center;
+	width: 90%;
+	margin: 5%;
 }
 
 img {
-	width: 90%;
+	max-width: 90%;
 	margin: 2.5% 5%;
-}
-
-ul {
-	margin: 0;
-}
-
-ul li {
-	font-weight: bold;
-	list-style: none;
-}
-
-ul li:last-child {
-	margin-bottom: 2.5%;
-}
-.pricing h3,
-.specifications h2,
-.specifications h6 {
-	margin-left: 5%;
-}
-
-.specifications h2,
-.pricing h3 {
-	margin-bottom: 2.5%;
-	margin-top: 2.5%;
-}
-
-.specifications h6 {
-	margin-top: 5%;
-	margin-bottom: 5%;
 }
 
 .genInfo p {
@@ -69,4 +42,75 @@ ul li:last-child {
 
 .availability h4 {
 	margin: 5% 2.5%;
+	width: 100%;
 }
+
+.specHeader h3{
+	margin: 1% 5%;
+	max-width: 90%;
+}
+
+.specList ul{
+	margin: 0 0 5%;
+	padding: 0;
+}
+
+
+.specList li{
+	list-style: none;
+	display: inline-block;
+}
+
+.specList li:nth-of-type(odd) {
+	width: 25%;
+	text-align: left;
+	margin-left: 10%;
+}
+
+.specList li:nth-of-type(even) {
+	width: 45%;
+	text-align: right;
+	margin-right: 10%;
+	font-weight: bold;
+}
+
+.specFooter h6 {
+	margin: 5%;
+	max-width: 90%;
+}
+
+
+.pricing h3 {
+	margin: 1% 5%;
+	max-width: 90%;
+}
+
+
+.pricing ul {
+	margin: 0 0 5%;
+	padding: 0;
+	max-width: 100%;
+}
+
+
+.pricing li {
+	list-style: none;
+	display: inline-block;
+	width: 35%;
+}
+
+.pricing ul li:nth-child(even) {
+	text-align: right;
+	margin-right: 10%;
+	font-weight: bold;
+}
+
+.pricing ul li:nth-child(odd) {
+	text-align: left;
+	margin-left: 10%;
+}
+
+
+
+
+
