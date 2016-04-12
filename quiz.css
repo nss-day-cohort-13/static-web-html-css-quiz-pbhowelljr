@@ -106,18 +106,19 @@ PRICING DIV
 .pricing li {
 	list-style: none;
 	display: inline-block;
-	width: 35%;
 }
 
 .pricing ul li:nth-child(even) {
 	text-align: right;
 	margin-right: 10%;
 	font-weight: bold;
+	width: 25%;
 }
 
 .pricing ul li:nth-child(odd) {
 	text-align: left;
 	margin-left: 10%;
+	width: 45%;
 }
 
 
