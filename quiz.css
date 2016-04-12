@@ -1,0 +1,147 @@
+/*************************************
+GENERAL STYLES
+*************************************/
+* {
+	box-sizing: border-box;
+}
+
+.card {
+	font-family: 'Source Sans Pro', sans-serif;
+	border: 1px solid lightblue;
+	float: left;
+	width: 90vw;
+	margin:5% 2.5%;
+}
+
+.card:last-child {
+	margin-bottom: 2.5%;
+}
+
+/*************************************
+GEN-INFO DIV
+*************************************/
+.mainHeader {
+	border: 1px dotted lightgrey;
+}
+
+.mainHeader h1 {
+	text-align: center;
+	width: 90%;
+	margin: 5%;
+}
+
+img {
+	max-width: 90%;
+	margin: 2.5% 5%;
+}
+
+.genInfo p {
+	width: 95%;
+	margin: 0 2.5%;
+	text-align: justify;
+}
+
+.availability {
+	background-color: darkgrey;
+	color: yellow;
+}
+
+.availability h4 {
+	margin: 5% 2.5%;
+	width: 100%;
+}
+
+/*************************************
+SPECIFICATIONS DIV
+*************************************/
+.specHeader h3{
+	margin: 1% 5%;
+	max-width: 90%;
+}
+
+.specList ul{
+	margin: 0 0 5%;
+	padding: 0;
+}
+
+.specList li{
+	list-style: none;
+	display: inline-block;
+}
+
+.specList li:nth-of-type(odd) {
+	width: 25%;
+	text-align: left;
+	margin-left: 10%;
+}
+
+.specList li:nth-of-type(even) {
+	width: 45%;
+	text-align: right;
+	margin-right: 10%;
+	font-weight: bold;
+}
+
+.specFooter h6 {
+	margin: 5%;
+	max-width: 90%;
+}
+
+/*************************************
+PRICING DIV
+*************************************/
+.pricing h3 {
+	margin: 1% 5%;
+	max-width: 90%;
+}
+
+
+.pricing ul {
+	margin: 0 0 5%;
+	padding: 0;
+	max-width: 100%;
+}
+
+
+.pricing li {
+	list-style: none;
+	display: inline-block;
+}
+
+.pricing ul li:nth-child(even) {
+	text-align: right;
+	margin-right: 10%;
+	font-weight: bold;
+	width: 25%;
+}
+
+.pricing ul li:nth-child(odd) {
+	text-align: left;
+	margin-left: 10%;
+	width: 45%;
+}
+
+
+/*************************************
+MEDIA QUERIES
+*************************************/
+@media(min-width: 760px) {
+	.card {
+		width: 45%;
+		margin:3.3333% 0 0 2.5%;
+	}
+}
+
+@media(min-width: 1024px) {
+	.card {
+		width: 30%;
+		margin:2.5% 0 0 2.5%;
+	}
+}
+
+@media(min-width: 1440px) {
+	.card {
+		width: 22%;
+		margin:2% 0 0 2.5%;
+	}
+}
